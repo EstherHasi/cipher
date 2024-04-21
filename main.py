@@ -36,7 +36,8 @@ def main():
     print(f'\nEncrypted text: {encryption}')
     print(f'Key: {custom_key}')
     decryption = decrypt(encryption, custom_key)
-    print(f'\nDecrypted text: {decryption}\n')
+    input(f'/nDo you want to see your original message?')
+    print(f'/nDecrypted text: {decryption}\n')
 
 if __name__ == '__main__':
     main()
